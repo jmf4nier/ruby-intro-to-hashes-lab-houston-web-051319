@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def new_hash
   empty = Hash.new
