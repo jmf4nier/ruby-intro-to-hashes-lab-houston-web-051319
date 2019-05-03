@@ -3,9 +3,8 @@ require 'pry'
 def new_hash
   empty = Hash.new
   empty
-  binding.pry
 end
-new_hash
+
 def actor
   actor = {:name => "Dwayne The Rock Johnson"}
   actor
