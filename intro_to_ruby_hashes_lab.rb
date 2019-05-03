@@ -2,7 +2,7 @@ require 'pry'
 
 def new_hash
   empty = Hash.new
-  puts empty
+  empty
   binding.pry
 end
 new_hash
