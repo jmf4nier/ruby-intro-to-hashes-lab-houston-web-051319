@@ -1,9 +1,13 @@
+require 'pry'
+
 def new_hash
-  
+  empty = Hash.new
+  empty
+  binding.pry
 end
 
 def actor
-actor = {:name => "Dwayne The Rock Johnson"}
+  actor = {:name => "Dwayne The Rock Johnson"}
   actor
 end
 
